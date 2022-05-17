@@ -1,0 +1,56 @@
+ count 
+-------
+ 47315
+(1 row)
+
+ count 
+-------
+    64
+(1 row)
+
+ count 
+-------
+    89
+(1 row)
+
+ count 
+-------
+   143
+(1 row)
+
+ count 
+-------
+  2219
+(1 row)
+
+ count 
+-------
+     7
+(1 row)
+
+DROP VIEW
+CREATE VIEW
+ count 
+-------
+   345
+(1 row)
+
+ count 
+-------
+   250
+(1 row)
+
+DROP VIEW
+CREATE VIEW
+ count 
+-------
+     1
+(1 row)
+
+DROP VIEW
+CREATE VIEW
+   title   
+-----------
+ Star Wars
+(1 row)
+

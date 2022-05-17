@@ -1,0 +1,136 @@
+ count 
+-------
+     2
+(1 row)
+
+ seconds 
+---------
+ 3883371
+(1 row)
+
+ count 
+-------
+    24
+(1 row)
+
+ count 
+-------
+   421
+(1 row)
+
+ count 
+-------
+  2072
+(1 row)
+
+        avg         
+--------------------
+ 1.1994069681245367
+(1 row)
+
+ count 
+-------
+  1215
+(1 row)
+
+ max 
+-----
+ 833
+(1 row)
+
+ extract 
+---------
+    2009
+(1 row)
+
+                            songid                             |                           title                            
+---------------------------------------------------------------+------------------------------------------------------------
+ music.AQQzJh1UxKQAjE2xHKbCl8Pdr4tAB2V-ATXcBG30pVq-ZNQInEvuAAE | Absolute Ego Dance
+ music.AQQfuYGUVcRBg0CUArJNEfBDsQCefaMAAQ                      | Airlane
+ music.AQQfhbg0htfvlUaWXb5lGJNX4gC0tRsAAQ                      | All My Love
+ music.AQQfagCcFMiEzU2MBdT88bn4yAbzNnIAAQ                      | Another Brick In The Wall, Pt. 1 (2011 Remastered Version)
+ music.AQQfs4j9OLqJvUSkueIkWNAxqgbzNnMAAQ                      | Another Brick In The Wall, Pt. 2 (2011 Remastered Version)
+ music.AQQz12K_J5IV2Eug4spio4FC-QELxv5-AdvkBEPThcK-ZNQInEvxAAE | Behind the Mask
+ music.AQQfiK_MOlgPUEKoWoNiluE2rwCefb8AAQ                      | Bombers (Live)
+ music.AQQT23rOhMTtlUWE7xfewpAokAPMzMZ-AZrmkuCMZlCNHdM         | Bruit, Silence - Bruit, Repos
+ music.AQQfLuiVTEvz2E6SJJWUB7BZcQdK8mMAAQ                      | Candidate (2007 Remastered Version)
+ music.AQQPVFYKcgXv6kidFCILe_p0AwfWg6sAAQnnllsAAQ              | Capricorn
+ music.AQQfy72Wu0nG8EuWPhoIDpuP1QC0tR8AAQ                      | Carouselambra
+ music.AQQfY4BfgwGCu0mD-eECzSaU4wCefbMAAQ                      | Cars (Original Version)
+ music.AQQzvKRZP8MYsUaHH-GsJbMAQHTXPpp-AUvYAnHtqpi-ZNQInEvwAAE | Catsalia
+ music.AQQznRSPKxzA8UmE8Ys2rWCp9SR6Ldl-Ad3kUIFXl0yNHdMH1-KKAAE | Clampdown
+ music.AQQf7zEFw4SuJUW3q9qFpnDiwwbzNosAAQ                      | Comfortably Numb (2011 Remastered Version)
+ music.AQQfKwCCfBF7PEGhEzPO_rHnogCefacAAQ                      | Complex
+ music.AQQfsEBsZSByQkS7qIJVNEEkXACefbEAAQ                      | Conversation
+ music.AQQPwO2fXcPZ7U21Goibk7uAVQfWg60AAQnqgR0AAQ              | Damage Case
+ music.AQQf14krIOPqUkuStybDHohcsgZcHksAAQ                      | Dancing In The Dark
+ music.AQQffk83Jlz9-kiCP3taot0ksAdK8mIAAQ                      | Day Of The Lords (2007 Remastered Version)
+ music.AQQz3Eivihcc7EmY_CKIye4lX8uUOQZ-ATTqODS22ViNHdMH1-KHAAE | Death or Glory
+ music.AQQfuR0WwfgQlUyt6Np0iPKt9QdK8mEAAQ                      | Disorder (2007 Remastered Version)
+ music.AQQfvvYS-JN7sk-ZQa13A_RHIgbzNogAAQ                      | Don't Leave Me Now (2011 Remastered Version)
+ music.AQQfm9NAQ4m4dk2tgF_UXdP_7wCefbUAAQ                      | Engineers
+ music.AQQffMwTAmDGxEC632eurCylLwYr37EAAQ                      | Ether
+ music.AQQfznssqIeCmkO_UygAhd-CWACefakAAQ                      | Films
+ music.AQQfHTTLDQ8tVk6eYZBHtm_VhwC0tRcAAQ                      | Fool In The Rain
+ music.AQQf6mTFBlz7YkO7y9Tf3M9IgAbzNooAAQ                      | Hey You (2011 Remastered Version)
+ music.AQQfw5CzYEwVyECHS_rWT-zaiQC0tRkAAQ                      | Hot Dog
+ music.AQQf95B2r0dpZ0O0FWFog66_7AdK8moAAQ                      | I Remember Nothing (2007 Remastered Version)
+ music.AQQf6MXzmric5km3B0wsIswGIAC0tR0AAQ                      | I'm Gonna Crawl
+ music.AQQzn184HTPpME2MPkxgLeODoGE4tKV-Af_lfol1606NHdMH1-KAAAE | I'm Not Down
+ music.AQQfZAYCJh3cZ0Gy0PkORMvi2QZEntAAAQ                      | Image Of A Passing Smile
+ music.AQQfQn4PU_6SdUO__szxm3ZRbAC0tRMAAQ                      | In The Evening
+ music.AQQfUZ0dPVz9mEicwYHCSlkIjAbzNowAAQ                      | In The Flesh (2011 Remastered Version)
+ music.AQQfE1FtbJdL6kezmjdbjCdnBQbzNnYAAQ                      | In The Flesh? (2011 Remastered Version)
+ music.AQQfd5vD1HokXEC0m9YfeM3a3QdK8mQAAQ                      | Insight (2007 Remastered Version)
+ music.AQQzqYchDuca6EOTEAt4jcRsGZhKhk5-AafeA9NekSC_ZNQInEvzAAE | Insomnia
+ music.AQQf78AnhGF52UuVyToQqWfqOQYpw7YAAQ                      | Jewel Drop
+ music.AQQzgguBliWPj06Fs2-1mJn2wMzueEh-AQzsh4FLPV-NHdMH1-J5AAE | Jimmy Jazz
+ music.AQQfD3V3Wpc3fEyPVxvCK5V3JgYrq8YAAQ                      | Kalifornia
+ music.AQQPQvGdNrjpFUChb4fA1OjSqgfWg7IAAQns954AAQ              | Like a Nightmare
+ music.AQQPlDvBeH0CmEGFbtykHIe_ogfWg7AAAQnqgSAAAQ              | Limb from Limb
+ music.AQQzrdAx1vSnaEWE58kJdGoRRt1qCFx-AZjkSOD5-UuNHdMH1-KFAAE | London Calling
+ music.AQQz7SKJQDjp_USt-11Da-tCBFTdeS5-AQ7siVhzRF-NHdMH1-KLAAE | Lost in the Supermarket
+ music.AQQz0I1iD6PCAEyTRwrLKazcFruZqpJ-AbznyK9JCVONHdMH1-J6AAE | Lover's Rock
+ music.AQQf5hFV-5dSHUOu0PXfldV0tACefasAAQ                      | M.E.
+ music.AQQf2bJ8dOQnyk23BVppKt1V2QCefb0AAQ                      | Me! I Disconnect From You (Live)
+ music.AQQflg9lR7eDL0Oq-uEFLXUpCgCefaUAAQ                      | Metal
+ music.AQQP15jFkaJbGkuz6ajnjz06uQfWg68AAQnnll8AAQ              | Metropolis
+ music.AQQf2cQBHHeFykOiSowdu9CeOAbzNoQAAQ                      | Mother (2011 Remastered Version)
+ music.AQQTcQjdTAPpq0O3LZ5j_kqbsuJCznJ-AcbmmUbEvlCNHdM         | Musique Pour L'Odyssee
+ music.AQQfMgQdrxL6OkKcCPDpfzpFqwdK8mUAAQ                      | New Dawn Fades (2007 Remastered Version)
+ music.AQQfNrUVY14Sl02SM-DW2DH3LAYo65kAAQ                      | No Balance Palace
+ music.AQQf1f_5n2gCUU-uWnL-mczzUwbzNnwAAQ                      | Nobody Home (2011 Remastered Version)
+ music.AQQfa2FZlgHA7UiEUZtowrnZIgCefbkAAQ                      | Oceans
+ music.AQQfVBHAtYXkKkC4HLl7AiWOuACefcMAAQ                      | On Broadway (Live)
+ music.AQQfVSWbfbWVV0GQz8Nj81ZUlgbzNoYAAQ                      | One Of My Turns (2011 Remastered Version)
+ music.AQQfyiu6R32tf0qjOxZbGjophQYsxQ0AAQ                      | Ophelia
+ music.AQQPu2y25Tzlzk-NY9bYl_oZuQfWg6cAAQnnllcAAQ              | Overkill
+ music.AQQfD5oUPMMPPkenr1jOwV9iowCefbcAAQ                      | Random
+ music.AQQfKZ-Kq6D7PUy6bGGcmVpY-gCefcEAAQ                      | Remember I Was Vapour (Live)
+ music.AQQzqCKytrirW0-i0uQoTjEM0uu_yGB-ATLnqgVYtFGNHdMH1-KBAAE | Revolution Rock
+ music.AQQzaQmkBzSfE06woxf-iMU51IJPe8Z-AU7lYY9IfE2NHdMH1-J-AAE | Rudie Can't Fail
+ music.AQQfD7WsFXELAkK-0gUVh3vdmgbzNn8AAQ                      | Run Like Hell (2011 Remastered Version)
+ music.AQQz7tK5Av46KEWVM-UUpXeET74DZ8p-AdrkA0PThcK-ZNQInEvvAAE | Rydeen
+ music.AQQfAWONltvqOU6LemWVnoNslAdK8mcAAQ                      | Shadowplay (2007 Remastered Version)
+ music.AQQfZhRCkYuvc0GXPjgsekrcjQdK8mYAAQ                      | She's Lost Control (2007 Remastered Version)
+ music.AQQfqmpHW4baxEGV0bSaPvYoawYrYCQAAQ                      | She's Made Of Chalk
+ music.AQQfyhwMFYe9I0GVFl-ySs_0xQYtZHwAAQ                      | Snowman
+ music.AQQzwSX7H89uO0iITxrLvMCISDmkStJ-AajeBNNekSC_ZNQInEv0AAE | Solid State Survivor
+ music.AQQf83W-WehWYE2G9fCRBKXAsgC0tRUAAQ                      | South Bound Saurez
+ music.AQQzBz3MRJv_q0ey33NFJkj3SsNJXxl-AWjnuMhmJFKNHdMH1-J8AAE | Spanish Bombs
+ music.AQQzh7544R4w20WXJhmeLoI3fu9Ym61-AQWnAUHBJ0W-ZNQInEvtAAE | Technopolis
+ music.AQQzGkcE3SdkhUq48V0wbqXaOkPkg4R-AcHlctwXbU6NHdMH1-KDAAE | The Card Cheat
+ music.AQQzoNMCjJGeOUSBRCrVVUWW1WNDyGp-AcDkTM32VkyNHdMH1-KJAAE | The Guns of Brixton
+ music.AQQzQZ5SsowG-UiowrneK5eT4mJbbQ5-Af3o_ud5L1aNHdMH1-J7AAE | The Right Profile
+ music.AQQfEJyT-S4NSUuCM7X1kdydDgZQ9VsAAQ                      | The Sighting
+ music.AQQfcTZs8NX_VkSwfxWNzZ-Y4QbzNnkAAQ                      | The Trial (2011 Remastered Version)
+ music.AQQPvGVjrt-3MkyLZKu0tUZI_wfWg7EAAQnnlmEAAQ              | Too Late Too Late (Bonus Track)
+ music.AQQztZ3kGZnvL0STyBR_zazPzA5LdQt-AVLpC2IFBFeNHdMH1-KCAAE | Train in Vain
+ music.AQQT7MHmrYVRakCn_y8H8JINrx66i1V-AcHqU8AbglqNHdM         | Trio \"Lettre D'Automne\"
+ music.AQQfWLorq-E-c0eeh7Q8feE48wY6YCgAAQ                      | Try To Remember
+ music.AQQff1QQd1rX70K5Nun0k_jeGAZV3VgAAQ                      | Vapour Trails
+ music.AQQfIjEMMTmjOUC4QGqmQi9PYwbzNoAAAQ                      | Waiting For The Worms (2011 Remastered Version)
+ music.AQQzuXjZlfUeKEGlf4NInABldto7_sN-AQPrW-_DTFuNHdMH1-KIAAE | Wrong 'Em Boyo
+ music.AQQf6DI2dqoZJkmQnGzNGg6gAwbzNoUAAQ                      | Young Lust (2011 Remastered Version)
+(87 rows)
+

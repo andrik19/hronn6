@@ -1,0 +1,462 @@
+
+SELECT 'projects: id --> pid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.id
+    FROM projects c
+    GROUP BY c.id
+    HAVING COUNT(DISTINCT c.pid) > 1
+) X;
+
+
+SELECT 'projects: id --> sid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.id
+    FROM projects c
+    GROUP BY c.id
+    HAVING COUNT(DISTINCT c.sid) > 1
+) X;
+
+
+SELECT 'projects: id --> sn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.id
+    FROM projects c
+    GROUP BY c.id
+    HAVING COUNT(DISTINCT c.sn) > 1
+) X;
+
+
+SELECT 'projects: id --> pn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.id
+    FROM projects c
+    GROUP BY c.id
+    HAVING COUNT(DISTINCT c.pn) > 1
+) X;
+
+
+SELECT 'projects: id --> mid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.id
+    FROM projects c
+    GROUP BY c.id
+    HAVING COUNT(DISTINCT c.mid) > 1
+) X;
+
+
+SELECT 'projects: id --> mn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.id
+    FROM projects c
+    GROUP BY c.id
+    HAVING COUNT(DISTINCT c.mn) > 1
+) X;
+
+
+SELECT 'projects: pid --> id' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pid
+    FROM projects c
+    GROUP BY c.pid
+    HAVING COUNT(DISTINCT c.id) > 1
+) X;
+
+
+SELECT 'projects: pid --> sid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pid
+    FROM projects c
+    GROUP BY c.pid
+    HAVING COUNT(DISTINCT c.sid) > 1
+) X;
+
+
+SELECT 'projects: pid --> sn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pid
+    FROM projects c
+    GROUP BY c.pid
+    HAVING COUNT(DISTINCT c.sn) > 1
+) X;
+
+
+SELECT 'projects: pid --> pn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pid
+    FROM projects c
+    GROUP BY c.pid
+    HAVING COUNT(DISTINCT c.pn) > 1
+) X;
+
+
+SELECT 'projects: pid --> mid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pid
+    FROM projects c
+    GROUP BY c.pid
+    HAVING COUNT(DISTINCT c.mid) > 1
+) X;
+
+
+SELECT 'projects: pid --> mn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pid
+    FROM projects c
+    GROUP BY c.pid
+    HAVING COUNT(DISTINCT c.mn) > 1
+) X;
+
+
+SELECT 'projects: sid --> id' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sid
+    FROM projects c
+    GROUP BY c.sid
+    HAVING COUNT(DISTINCT c.id) > 1
+) X;
+
+
+SELECT 'projects: sid --> pid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sid
+    FROM projects c
+    GROUP BY c.sid
+    HAVING COUNT(DISTINCT c.pid) > 1
+) X;
+
+
+SELECT 'projects: sid --> sn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sid
+    FROM projects c
+    GROUP BY c.sid
+    HAVING COUNT(DISTINCT c.sn) > 1
+) X;
+
+
+SELECT 'projects: sid --> pn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sid
+    FROM projects c
+    GROUP BY c.sid
+    HAVING COUNT(DISTINCT c.pn) > 1
+) X;
+
+
+SELECT 'projects: sid --> mid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sid
+    FROM projects c
+    GROUP BY c.sid
+    HAVING COUNT(DISTINCT c.mid) > 1
+) X;
+
+
+SELECT 'projects: sid --> mn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sid
+    FROM projects c
+    GROUP BY c.sid
+    HAVING COUNT(DISTINCT c.mn) > 1
+) X;
+
+
+SELECT 'projects: sn --> id' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sn
+    FROM projects c
+    GROUP BY c.sn
+    HAVING COUNT(DISTINCT c.id) > 1
+) X;
+
+
+SELECT 'projects: sn --> pid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sn
+    FROM projects c
+    GROUP BY c.sn
+    HAVING COUNT(DISTINCT c.pid) > 1
+) X;
+
+
+SELECT 'projects: sn --> sid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sn
+    FROM projects c
+    GROUP BY c.sn
+    HAVING COUNT(DISTINCT c.sid) > 1
+) X;
+
+
+SELECT 'projects: sn --> pn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sn
+    FROM projects c
+    GROUP BY c.sn
+    HAVING COUNT(DISTINCT c.pn) > 1
+) X;
+
+
+SELECT 'projects: sn --> mid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sn
+    FROM projects c
+    GROUP BY c.sn
+    HAVING COUNT(DISTINCT c.mid) > 1
+) X;
+
+
+SELECT 'projects: sn --> mn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.sn
+    FROM projects c
+    GROUP BY c.sn
+    HAVING COUNT(DISTINCT c.mn) > 1
+) X;
+
+
+SELECT 'projects: pn --> id' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pn
+    FROM projects c
+    GROUP BY c.pn
+    HAVING COUNT(DISTINCT c.id) > 1
+) X;
+
+
+SELECT 'projects: pn --> pid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pn
+    FROM projects c
+    GROUP BY c.pn
+    HAVING COUNT(DISTINCT c.pid) > 1
+) X;
+
+
+SELECT 'projects: pn --> sid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pn
+    FROM projects c
+    GROUP BY c.pn
+    HAVING COUNT(DISTINCT c.sid) > 1
+) X;
+
+
+SELECT 'projects: pn --> sn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pn
+    FROM projects c
+    GROUP BY c.pn
+    HAVING COUNT(DISTINCT c.sn) > 1
+) X;
+
+
+SELECT 'projects: pn --> mid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pn
+    FROM projects c
+    GROUP BY c.pn
+    HAVING COUNT(DISTINCT c.mid) > 1
+) X;
+
+
+SELECT 'projects: pn --> mn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.pn
+    FROM projects c
+    GROUP BY c.pn
+    HAVING COUNT(DISTINCT c.mn) > 1
+) X;
+
+
+SELECT 'projects: mid --> id' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mid
+    FROM projects c
+    GROUP BY c.mid
+    HAVING COUNT(DISTINCT c.id) > 1
+) X;
+
+
+SELECT 'projects: mid --> pid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mid
+    FROM projects c
+    GROUP BY c.mid
+    HAVING COUNT(DISTINCT c.pid) > 1
+) X;
+
+
+SELECT 'projects: mid --> sid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mid
+    FROM projects c
+    GROUP BY c.mid
+    HAVING COUNT(DISTINCT c.sid) > 1
+) X;
+
+
+SELECT 'projects: mid --> sn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mid
+    FROM projects c
+    GROUP BY c.mid
+    HAVING COUNT(DISTINCT c.sn) > 1
+) X;
+
+
+SELECT 'projects: mid --> pn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mid
+    FROM projects c
+    GROUP BY c.mid
+    HAVING COUNT(DISTINCT c.pn) > 1
+) X;
+
+
+SELECT 'projects: mid --> mn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mid
+    FROM projects c
+    GROUP BY c.mid
+    HAVING COUNT(DISTINCT c.mn) > 1
+) X;
+
+
+SELECT 'projects: mn --> id' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mn
+    FROM projects c
+    GROUP BY c.mn
+    HAVING COUNT(DISTINCT c.id) > 1
+) X;
+
+
+SELECT 'projects: mn --> pid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mn
+    FROM projects c
+    GROUP BY c.mn
+    HAVING COUNT(DISTINCT c.pid) > 1
+) X;
+
+
+SELECT 'projects: mn --> sid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mn
+    FROM projects c
+    GROUP BY c.mn
+    HAVING COUNT(DISTINCT c.sid) > 1
+) X;
+
+
+SELECT 'projects: mn --> sn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mn
+    FROM projects c
+    GROUP BY c.mn
+    HAVING COUNT(DISTINCT c.sn) > 1
+) X;
+
+
+SELECT 'projects: mn --> pn' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mn
+    FROM projects c
+    GROUP BY c.mn
+    HAVING COUNT(DISTINCT c.pn) > 1
+) X;
+
+
+SELECT 'projects: mn --> mid' AS FD,
+CASE WHEN COUNT(*)=0 THEN 'MAY HOLD'
+ELSE 'does not hold' END AS VALIDITY
+FROM (
+    SELECT c.mn
+    FROM projects c
+    GROUP BY c.mn
+    HAVING COUNT(DISTINCT c.mid) > 1
+) X;
+
